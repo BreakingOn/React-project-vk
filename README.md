@@ -4,6 +4,7 @@ Node.js
 
 Нужно ввести в терминал команды, находясь в корне проекта:
 
+npm install -g react-scripts
 npm install redux react-redux react-router-dom ajv
 npm install @reduxjs/toolkit
 
