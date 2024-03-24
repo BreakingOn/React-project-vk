@@ -1,0 +1,65 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+  }
+  .show {
+    display: block;
+  }
+  
+  .modal-content {
+    display: flex;
+    flex-direction: column; 
+    justify-content:left; 
+    align-items: left; 
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    max-height: 80%; 
+    overflow: auto; 
+  }
+  
+  
+  .modal-content input {
+    width: 45%; 
+    margin-bottom: 10px; 
+  }
+  
+  
+  .modal-content select {
+    width: 50%; 
+  }
+  
+ 
+  .modal-content button {
+    padding: 10px 20px; 
+    margin-top: 10px; 
+  }
+  
+  
+  .delivery {
+    margin-top: 20px; 
+  }
+  
+  
+  .city-list {
+    margin-top: 10px; 
+  }
+  .delivery-container {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .form-group {
+    margin-right: 20px; 
+  }

@@ -1,0 +1,67 @@
+.product-table {
+    width: 60%; /* Ширина таблицы на 60% экрана */
+    margin-top: 20px;
+    margin-left: 60px; /* Отступ сверху и снизу 20px, автоматическое выравнивание по центру */
+    border-collapse: collapse;
+  }
+  
+  .product-table th, .product-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .product-table th {
+    background-color: #f2f2f2;
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 90px;
+    margin-left: 60px;
+}
+
+.search-bar input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+}
+
+.btn1 {
+    margin-right: 10px; /* Отступ между кнопками */
+}
+
+.btn2 {
+    margin-right: 10px;
+    margin-left: 10px; /* Отступ между кнопками */
+}
+  .btnadd {
+    margin-right: 50px;
+  }
+  th {
+    position: relative;
+  }
+  
+  .th-sort::after {
+    content: '';
+    position: absolute;
+    right: 0.5em;
+  }
+  
+  .th-sort-up::after {
+    content: '▲';
+  }
+  
+  .th-sort-down::after {
+    content: '▼';
+  }
